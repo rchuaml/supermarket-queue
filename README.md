@@ -11,12 +11,6 @@ computeQueueTime(customers, n)
 - `customers`: An array of positive integers. Each integer represents a customer, and its value is how long they require to check out.
 - `n`: The number of self-checkout counters in the supermarket.
 
-You can assume the following:
-
-- There is only a single queue to use the counters.
-- The order of the queue will never change. 
-- The person at the front of the queue proceeds to a counter as soon as it becomes free with no lag time.
-
 Here are some examples:
 
 ```js
@@ -33,9 +27,15 @@ computeQueueTime([2,3,10], 2)
 // should return 12
 ```
 
-## Further - express line
+You can assume the following:
 
-Management is thinking to re-introduce some traditional non-self-checkout counters to facilitate faster checking out of customers who are less conversant with self-checkout.
+- There is only a single queue to use the counters.
+- The order of the queue will never change. 
+- The person at the front of the queue proceeds to a counter as soon as it becomes free with no lag time.
+
+## Further - traditional 
+
+Management is thinking to re-introduce some traditional staffed counters to facilitate faster checking out of customers who are less conversant with self-checkout.
 
 These trained staff will be able to serve a customer __twice__ as fast as a self-checkout counter.
 
@@ -50,6 +50,7 @@ computeQueueTime(customers, n, m)
 Note:
 
 - There is still only 1 queue to access all counters, regardless of the type of counter.
+- Assume all customers are still the same and are not split by how conversant they are with self-checkout. The first person in the queue continues to use whichever counter is available.
 
 ## Resources
 
