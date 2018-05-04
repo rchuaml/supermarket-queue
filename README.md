@@ -33,8 +33,27 @@ computeQueueTime([2,3,10], 2)
 // should return 12
 ```
 
+## Further - express line
+
+Management is thinking to re-introduce some traditional non-self-checkout counters to facilitate faster checking out of customers who are less conversant with self-checkout.
+
+These trained staff will be able to serve a customer __twice__ as fast as a self-checkout counter.
+
+Modify your function to incorporate a second type of counter. You should be able to use this function to advice management exactly how much faster the checkouts will be. The new function signature should be:
+
+```js
+computeQueueTime(customers, n, m)
+```
+
+- `m` (new): The number of traditional staffed counters that perform checkouts twice as fast as self-checkout counters.
+
+Note:
+
+- There is still only 1 queue to access all counters, regardless of the type of counter.
+
 ## Resources
 
 - This was adapted from a [kata](https://www.codewars.com/kata/the-supermarket-queue/train/python) on Codewars.
 - The supermarket queue is analogous to the [thread pool](https://en.wikipedia.org/wiki/Thread_pool) in computer science.
 - Concept of [concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) in computer science.
+
