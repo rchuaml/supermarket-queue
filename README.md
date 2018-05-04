@@ -33,7 +33,7 @@ You can assume the following:
 - The order of the queue will never change. 
 - The person at the front of the queue proceeds to a counter as soon as it becomes free with no lag time.
 
-## Further - traditional 
+## Further - traditional staffed counters
 
 Management is thinking to re-introduce some traditional staffed counters to facilitate faster checking out of customers who are less conversant with self-checkout.
 
