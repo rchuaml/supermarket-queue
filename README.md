@@ -54,7 +54,7 @@ Note:
 
 ## Resources
 
-- This was adapted from a [kata](https://www.codewars.com/kata/the-supermarket-queue/train/python) on Codewars.
+- This was adapted from a [kata](https://www.codewars.com/kata/the-supermarket-queue/train) on Codewars.
 - The supermarket queue is analogous to the [thread pool](https://en.wikipedia.org/wiki/Thread_pool) in computer science.
 - Concept of [concurrency](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) in computer science.
 
