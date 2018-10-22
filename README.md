@@ -13,19 +13,24 @@ computeQueueTime(customers, n)
 
 Here are some examples:
 
-```js
-computeQueueTime([5,3,4], 1)
-// should return 12
-// because when n=1, the total time is just the sum of the times
-
-computeQueueTime([10,2,3,3], 2)
-// should return 10
-// because here n=2 and the 2nd, 3rd, and 4th people in the 
-// queue finish before the 1st person has finished.
-
-computeQueueTime([2,3,10], 2)
-// should return 12
 ```
+computeQueueTime([5,3,4], 1)
+```
+- should return 12
+- because when n=1, the total time is just the sum of the times
+
+```
+computeQueueTime([10,2,3,3], 2)
+```
+
+- should return 10
+- because here n=2 and the 2nd, 3rd, and 4th people in the 
+- queue finish before the 1st person has finished.
+
+```
+computeQueueTime([2,3,10], 2)
+```
+- should return 12
 
 You can assume the following:
 
@@ -41,7 +46,7 @@ These trained staff will be able to serve a customer __twice__ as fast as a self
 
 Modify your function to incorporate a second type of counter. You should be able to use this function to advice management exactly how much faster the checkouts will be. The new function signature should be:
 
-```js
+```
 computeQueueTime(customers, n, m)
 ```
 
